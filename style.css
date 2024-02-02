@@ -36,28 +36,39 @@ li a {
   border-radius: 20px;
 } */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   *{
     margin: 0;
     font-family: 'League Spartan', sans-serif;
   
   }
   ul {
-    /* list-style-type: none; */
-    margin: 0;
-    padding: 0;
+    width: auto;
+    /* padding-left: 15%; */
+    list-style-type: none;
     overflow: hidden;
     background-color: #94a684;
+    /* text-align: center; */
+    /* justify-content: space-evenly; */
   }
   
   /* li {
     float: left;
     padding-top: 10px;
   } */
+
+  li{
+    padding-top: 10px;
+    padding-left: 49px;
+
+  }
   .header{
-    margin-right: 20%;
-    margin-left: 20px;
-    padding-top: 15px;
+    /* margin-right: 20%; */
+    padding-left: 35%;
+    text-align: center;
+    background-color: #94a684;
+    padding-top: 20px;
+    font-size: 30px;
     
   }
   
@@ -65,7 +76,7 @@ li a {
     display: block;
     color: rgb(170, 33, 33);
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
   }
 
@@ -134,17 +145,17 @@ li a {
   padding: 0 90px 0 10px;
 }
 
-/* .hero-img:hover{
+.hero-img:hover{
   height: 550px;
   padding: 0 ;
   cursor: pointer;
 
-} */
+}
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   
 .home-page{
-  height: 300px;
+  height: 250px;
   width: auto;
   background-color: #94a684;
   /* padding: 20px 0 0 10px; */
@@ -153,17 +164,17 @@ li a {
 
 .p1{
   /* display: inline-block; */
-  padding-top: 8%;
+  padding-top: 5%;
   /* padding-left: 50px; */
 }
 
 #head{
   /* display: inline-block; */
-  font-size: 30px;
+  font-size: 40px;
   /* text-align: center; */
   color: white;
   font-family: 'Protest Strike', sans-serif;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 
   
 }
@@ -173,7 +184,7 @@ li a {
   color: rgba(255, 255, 255, 0.696);
   text-align: center;
   width: 200px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 
 }
 .head-btn{
@@ -189,7 +200,7 @@ li a {
 #btn-1{
   background-color:#ffc107;
   margin-right: 8px;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 #btn-2{
   background-color:#94a684;
@@ -210,10 +221,21 @@ li a {
 }
 
 .hero-img{
-  height: 200px;
+  width:fit-content;
+  height: 145px;
   float: right;
-  padding: 10px 0 0 10px;
+  padding: 45px 0 0 0;
   
+}
+.hero-img:hover{
+  width:fit-content;
+  height: 145px;
+  float: right;
+  padding: 45px 0 0 0;
+  /* height: 550px; */
+  /* padding: 0 ; */
+  /* cursor: pointer; */
+
 }
   
 }
@@ -281,10 +303,10 @@ li a {
   color: white;
   cursor: pointer;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   .page-2{
-    height: a;
-    /* display: flex; */
+    height: auto;
+    display: block;
     background-color:#d0bfff;
     /* padding: 10% 0 10% 30px; */
   }
@@ -294,7 +316,10 @@ li a {
     border: 1px solid #94a684;
     border-radius: 10px;
     /* padding: 50px 0 50px 0; */
-    /* margin-left: 10px; */
+    margin-left: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+
   }
   
   .product:hover{
@@ -302,7 +327,9 @@ li a {
   }
   
   .page-2 img{
-    width:100px;
+    width:150px;
+    /* justify-content: center; */
+    
   }
   
   .IMG-name{
@@ -316,16 +343,21 @@ li a {
     font-size:19px ;
   
   }
+  .p2-1{
+    padding-bottom: 20px;
+    text-align: center;
+  }
   
   .p2-head{
     font-size: 35px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     padding-top: 25%
   }
   
   .p2-sub{
     font-size: 17px;
-  
+    width: 200px;
+    margin-left: 25%;  
   }
   
   .p2-btn{
