@@ -35,8 +35,37 @@ li a {
   background-color: #111;
   border-radius: 20px;
 } */
+@media screen and (min-width:426px) and (max-width:1025px) {
+  
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #94a684;
+}
 
-@media only screen and (max-width:480px) {
+li {
+  float: left;
+  padding-top: 10px;
+}
+.header{
+  margin-right: 60%;
+  margin-left: 20px;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+}
+@media screen and (max-width:426px) {
   *{
     margin: 0;
     font-family: 'League Spartan', sans-serif;
@@ -140,19 +169,94 @@ li a {
 }
 
 .hero-img{
-  height: 400px;
+  height: 500px;
+  width: 500px;
   float: right;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-top: 50px;
   padding: 0 90px 0 10px;
+  background-image: url(IMG/Sofa2_1200x931.webp);
 }
 
-.hero-img:hover{
+/* .hero-img:hover{
   height: 550px;
   padding: 0 ;
   cursor: pointer;
 
+} */
+@media screen and (min-width:426px) and (max-width:1025px) {
+  
+.home-page{
+  width: 100%;
+  height: 550px;
+  background-color: #94a684;
+  padding: 20px 0 0 20px;
+  justify-content: center;
 }
 
-@media only screen and (max-width:480px) {
+.p1{
+  display: inline-block;
+  padding-top: 8%;
+}
+
+#head{
+  /* display: inline-block; */
+  font-size: 80px;
+  color: white;
+  font-family: 'Protest Strike', sans-serif;
+  
+}
+
+.head-para{
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.696);
+}
+.head-btn{
+  margin-top: 15px;
+  height: 35px;
+  padding: 2%;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+#btn-1{
+  background-color:#ffc107;
+  margin-right: 8px;
+}
+#btn-2{
+  background-color:#94a684;
+  margin-right: 5px;
+  border: 1px solid;
+}
+
+#btn-1:hover{
+  background-color:#0e0e0e;
+  color: #ffc107;
+  /* border: 2px solid white; */
+  cursor: pointer;
+}
+#btn-2:hover{
+  background-color:#5a554370;
+  color:#f2f1f1;
+  cursor: pointer;
+}
+
+.hero-img{
+  height: 500px;
+  width: 300px;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  /* margin-top: 50px; */
+  /* padding: 0 90px 0 10px; */
+  background-image: url(IMG/Sofa2_1200x931.webp);
+}
+
+}
+
+@media screen and (max-width:426px) {
   
 .home-page{
   height: 250px;
@@ -221,10 +325,10 @@ li a {
 }
 
 .hero-img{
+  display: block;
   width:fit-content;
   height: 145px;
-  float: right;
-  padding: 45px 0 0 0;
+  padding: 5px 0 0 0;
   
 }
 .hero-img:hover{
@@ -243,7 +347,7 @@ li a {
 /* PAGE 2 */
 
 .page-2{
-  height: a;
+  height: auto;
   display: flex;
   background-color:#d0bfff;
   padding: 10% 0 10% 30px;
@@ -303,10 +407,75 @@ li a {
   color: white;
   cursor: pointer;
 }
-@media only screen and (max-width:480px) {
+@media screen and (min-width:426px) and (max-width:1025px) {
+  
+.page-2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color:#d0bfff;
+  padding: 10% 0 10% 30px;
+}
+
+.product{
+  width:250px;
+  border: 1px solid #94a684;
+  border-radius: 10px;
+  padding: 50px 0 50px 0;
+  margin-left: 10px;
+}
+
+.product:hover{
+  background-color: #94a684;
+}
+
+.page-2 img{
+  width:200px;
+}
+
+.IMG-name{
+  text-align: center;
+  font-size:19px ;
+
+}
+
+.IMG-price{
+  text-align: center;
+  font-size:19px ;
+
+}
+
+.p2-head{
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-top: 25%
+}
+
+.p2-sub{
+  font-size: 17px;
+
+}
+
+.p2-btn{
+  background-color: #d0bfff;
+  margin-top: 15px;
+  height: 35px;
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.p2-btn:hover{
+  background-color: #94a684e3;
+  color: white;
+  cursor: pointer;
+}
+}
+@media screen and (max-width:426px) {
   .page-2{
     height: auto;
-    display: block;
+    flex-wrap: wrap;
     background-color:#d0bfff;
     /* padding: 10% 0 10% 30px; */
   }
@@ -349,7 +518,8 @@ li a {
   }
   
   .p2-head{
-    font-size: 35px;
+    font-size: 25px;
+    text-align: center;
     /* padding-bottom: 10px; */
     padding-top: 25%
   }
